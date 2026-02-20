@@ -11,7 +11,7 @@ export default function Home() {
         <div className="flex justify-center md:justify-start">
           <div className="relative w-[240px] h-[320px] sm:w-[280px] sm:h-[380px] md:w-[340px] md:h-[460px] rounded-2xl overflow-hidden shadow-xl">
             <Image
-              src="/imgg.png"
+              src="/Img1.jpeg"
               alt="Sulaiman Sururah Asabi"
               fill
               className="object-cover"
