@@ -8,18 +8,18 @@ export default function Home() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-14 items-center">
 
         {/* Image */}
-        <div className="flex justify-center md:justify-start">
-          <div className="relative w-[240px] h-[320px] sm:w-[280px] sm:h-[380px]
-           md:w-[340px] md:h-[460px] rounded-2xl overflow-hidden shadow-xl">
-            <Image
-              src="/Img1.jpeg"
-              alt="Sulaiman Sururah Asabi"
-              fill
-              className="object-cover"
-              priority
-            />
-          </div>
-        </div>
+       <div className="flex justify-center">
+  <div className="relative w-[240px] h-[320px] sm:w-[280px] sm:h-[380px]
+    md:w-[340px] md:h-[460px] rounded-2xl overflow-hidden shadow-xl">
+    <Image
+      src="/Img1.jpeg"
+      alt="Sulaiman Sururah Asabi"
+      fill
+      className="object-cover"
+      priority
+    />
+  </div>
+</div>
 
         {/* Content */}
         <div className="text-center md:text-left">
