@@ -22,7 +22,7 @@ export default function ProjectsSection() {
     },
     {
       title: "Import and Export",
-      image: "/Apexline.png",
+      image: "/Apexline1.png",
       link: "https://apexline.vercel.app/",
     },
   ];
