@@ -25,16 +25,6 @@ export default function ProjectsSection() {
       image: "/Apexline.png",
       link: "#",
     },
-    {
-      title: "School Mgt Sys",
-      image: "/project5.png",
-      link: "#",
-    },
-    {
-      title: "Space Travel",
-      image: "/project6.png",
-      link: "#",
-    },
   ];
 
   return (
