@@ -1,7 +1,7 @@
 "use client";
 
-import { Code2, Smartphone,Paintbrush, Settings, Gauge, FilePenLine,
-  Globe, Bug, TrendingUp, ShoppingCart,Store, } from "lucide-react";
+import { Code2, Smartphone, Paintbrush, Settings, Gauge, FilePenLine,
+  Globe, Bug, TrendingUp, ShoppingCart, Store } from "lucide-react";
 
 export default function Services() {
   const services = [
@@ -82,16 +82,25 @@ export default function Services() {
               key={index}
               className="group bg-white p-10 rounded-xl shadow-md
                          hover:bg-black hover:shadow-2xl
+                         active:bg-black active:shadow-2xl
+                         focus-within:bg-black focus-within:shadow-2xl
                          transition-all duration-300 ease-out"
             >
               {/* Icon */}
-              <div className="flex justify-center text-black group-hover:text-white transition-colors duration-300">
+              <div className="flex justify-center text-black 
+                              group-hover:text-white 
+                              group-active:text-white 
+                              group-focus-within:text-white 
+                              transition-colors duration-300">
                 {service.icon}
               </div>
 
               {/* Title */}
               <h3 className="mt-6 text-sm tracking-[0.25em] uppercase font-semibold 
-                             text-black group-hover:text-white 
+                             text-black 
+                             group-hover:text-white 
+                             group-active:text-white 
+                             group-focus-within:text-white
                              transition-colors duration-300">
                 {service.title}
               </h3>
@@ -99,11 +108,15 @@ export default function Services() {
               {/* Divider */}
               <div className="w-10 h-[2px] bg-black mx-auto my-4 
                               group-hover:bg-white 
+                              group-active:bg-white 
+                              group-focus-within:bg-white
                               transition-colors duration-300"></div>
 
               {/* Description */}
               <p className="text-gray-600 text-sm leading-relaxed 
                             group-hover:text-gray-300 
+                            group-active:text-gray-300 
+                            group-focus-within:text-gray-300
                             transition-colors duration-300">
                 {service.desc}
               </p>
