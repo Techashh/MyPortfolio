@@ -69,7 +69,7 @@ export default function Home() {
 
             <div>
               <span className="font-semibold text-gray-900">Hobbies:</span>{" "}
-              <span className="text-gray-600">Basketball, Learning</span>
+              <span className="text-gray-600">Basketball, Travelling</span>
             </div>
           </div>
         </div>
