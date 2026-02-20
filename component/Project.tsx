@@ -5,25 +5,25 @@ import Image from "next/image";
 
 export default function ProjectsSection() {
   const projects = [
-    {
-      title: "Hospital Mgt Sys",
-      image: "/hosptalmgt.png",
-      link: "#",
-    },
-    {
+  {
+  title: "Hospital Mgt Sys",
+  image: "/hosptalmgt.png",
+  link: "https://hospital-management-system-omega-eight.vercel.app/",
+},
+     {
       title: "Currency Exchange",
       image: "/Worldremit.png",
-      link: "#",
+      link: "https://worldremit.vercel.app/",
     },
     {
       title: "Hotel Mgt Sys",
       image: "/Hotel.png",
-      link: "#",
+      link: "https://soho-theta.vercel.app/",
     },
     {
       title: "Import and Export",
       image: "/Apexline.png",
-      link: "#",
+      link: "https://apexline.vercel.app/",
     },
   ];
 
