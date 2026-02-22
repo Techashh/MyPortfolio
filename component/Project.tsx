@@ -10,20 +10,25 @@ export default function ProjectsSection() {
   image: "/hosptalmgt.png",
   link: "https://hospital-management-system-omega-eight.vercel.app/",
 },
-     {
-      title: "Currency Exchange",
-      image: "/Worldremit.png",
-      link: "https://worldremit.vercel.app/",
-    },
     {
       title: "Hotel Mgt Sys",
       image: "/Hotel.png",
       link: "https://soho-theta.vercel.app/",
     },
-    {
+       {
       title: "Import and Export",
       image: "/Apexline1.png",
       link: "https://apexline.vercel.app/",
+    },
+    {
+      title: "School Mgt sys",
+      image: "/Schmgt.png",
+      link: "https://worldremit.vercel.app/",
+    },
+      {
+      title: "Currency Exchange",
+      image: "/Worldremit.png",
+      link: "https://worldremit.vercel.app/",
     },
   ];
 
