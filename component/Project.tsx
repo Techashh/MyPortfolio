@@ -28,7 +28,7 @@ export default function ProjectsSection() {
     {
       title: "School Mgt sys",
       image: "/Schmgt.png",
-      link: "https://school-management-system-omega.vercel.app/",
+      link: "https://school-management-sys-azure.vercel.app/",
     },
   ];
 
