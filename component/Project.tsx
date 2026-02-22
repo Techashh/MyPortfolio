@@ -20,15 +20,15 @@ export default function ProjectsSection() {
       image: "/Apexline1.png",
       link: "https://apexline.vercel.app/",
     },
-    {
-      title: "School Mgt sys",
-      image: "/Schmgt.png",
-      link: "https://worldremit.vercel.app/",
-    },
       {
       title: "Currency Exchange",
       image: "/Worldremit.png",
       link: "https://worldremit.vercel.app/",
+    },
+    {
+      title: "School Mgt sys",
+      image: "/Schmgt.png",
+      link: "https://school-management-system-omega.vercel.app/",
     },
   ];
 
