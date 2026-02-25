@@ -127,14 +127,34 @@ export default function Home() {
           className="relative z-20 flex min-h-[90vh] md:min-h-screen items-center justify-center px-4 sm:px-6 md:px-4 text-center pt-24 sm:pt-28 md:pt-0"
         >
           <div className="max-w-xl sm:max-w-2xl md:max-w-none">
-            <p className="text-xs sm:text-sm md:text-lg mb-4 text-gray-300 font-semibold tracking-wide">
-              Hi, I am
-            </p>
+        <p className="text-xs sm:text-sm md:text-lg mb-4 font-semibold tracking-wide
+              bg-gradient-to-r from-black to-gray-400 text-transparent bg-clip-text
+              md:bg-none md:text-gray-400 md:bg-clip-border md:text-opacity-100">
+  Hi, I am
+</p>
 
-            <h1 className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold mb-3 leading-snug md:leading-tight">
-              <span className="text-black block sm:inline">SULAIM</span>
-              <span className="text-white block sm:inline">AN SURURAH</span>
-            </h1>
+          <h1 className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold mb-3 leading-snug md:leading-tight">
+
+  {/* Mobile View */}
+  <span className="block sm:hidden text-black">
+    SULAIMAN
+  </span>
+  <span className="block sm:hidden text-white">
+    SURURAH
+  </span>
+
+  {/* Desktop View */}
+  <span className="hidden sm:inline text-black">
+    SULAIM
+  </span>
+  <span className="hidden sm:inline text-white">
+    AN
+  </span>
+  <span className="hidden sm:inline text-white ml-2">
+    SURURAH
+  </span>
+
+</h1>
 
             <p className="text-xs sm:text-base md:text-lg text-gray-400 mb-6 md:mb-10 font-semibold tracking-wide">
               Software Developer
