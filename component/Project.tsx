@@ -21,14 +21,14 @@ export default function ProjectsSection() {
       link: "https://apexline.vercel.app/",
     },
       {
-      title: "Currency Exchange",
+      title: "Currency Exchange (desktop view only)",
       image: "/Worldremit.png",
       link: "https://worldremit.vercel.app/",
     },
     {
-      title: "School Mgt sys",
+      title: "School Mgt sys (desktop view only)",
       image: "/Schmgt.png",
-      link: "https://school-management-sys-azure.vercel.app/",
+      link: "https://school-management-system-lilac-seven.vercel.app/",
     },
   ];
 
